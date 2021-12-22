@@ -196,7 +196,7 @@ class Sup extends StatelessWidget {
           // Title
           if (config.title != null) ...[
             DefaultTextStyle(
-              style: theme.textTheme.title.copyWith(
+              style: theme.textTheme.headline6.copyWith(
                 fontSize: 20,
                 fontWeight: FontWeight.w700,
               ),
